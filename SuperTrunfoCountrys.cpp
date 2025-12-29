@@ -6,7 +6,7 @@ quais são os dados da Carta 01 e imprimindo os dados na sequência assim como d
 int main (){
     char estado1 [20], estado2[20];
     char codigoCarta1 [3], codigoCarta2 [3];
-    char Cidade1 [20], Cidade2 [20];
+    char cidade1 [20], cidade2 [20];
     int populacao1, populacao2;
     float area1, area2;
     float pib1, pib2;
@@ -22,7 +22,7 @@ int main (){
     scanf("%s", &codigoCarta1);
 
     printf("Digite o nome da Cidade da primeira carta: \n");
-    scanf("%s", &Cidade1);
+    scanf("%s", &cidade1);
 
     printf("Digite o número da população da primeira carta \n");
     scanf("%d", &populacao1);
@@ -40,7 +40,7 @@ int main (){
 
     printf("\n" "O Estado da primeira carta é: %s \n", estado1);
     printf("O código da primeira carta é: %s \n", codigoCarta1);
-    printf("A cidade da primeira carta é: %s \n", Cidade1);
+    printf("A cidade da primeira carta é: %s \n", cidade1);
     printf("A população da primeira carta é: %d \n", populacao1);
     printf("A área da primeira carta é: %f \n", area1);
     printf("O PIB da primeira carta é: %f \n", pib1);
@@ -55,7 +55,7 @@ int main (){
     scanf("%s", &codigoCarta2);
 
     printf("Digite o nome da Cidade da segunda carta: \n");
-    scanf("%s", &Cidade2);
+    scanf("%s", &cidade2);
 
     printf("Digite o número da população da segunda carta \n");
     scanf("%d", &populacao2);
@@ -73,7 +73,7 @@ int main (){
 
     printf("\n""O Estado da segunda carta é: %s \n", estado2);
     printf("O código da segunda carta é: %s \n", codigoCarta2);
-    printf("A cidade da segunda carta é: %s \n", Cidade2);
+    printf("A cidade da segunda carta é: %s \n", cidade2);
     printf("A população da segunda carta é: %d \n", populacao2);
     printf("A área da segunda carta é: %f \n", area2);
     printf("O PIB da segunda carta é: %f \n", pib2);
@@ -83,3 +83,4 @@ int main (){
 
     return 0;
 }
+
